@@ -5,3 +5,7 @@ Using git log we can see the commit history.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area acts as an intermediary.It can have one or more file/s.Whichever files are added together in the staging
 area are saved as a single commit in the working directory.
+
+How can you use the staging area to make sure you have one commit per logical change.
+Before the changes are actually commited in the repository,the files are instead added to the staging area(gti add filename)
+Add file in the staging area such that there is only only one logical change in the file and then commit the changes.
